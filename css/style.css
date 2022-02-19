@@ -507,6 +507,9 @@ input[type="submit"]:hover{
     .home .content p{
         font-size: 1rem;
     }
+.about .row .cont h3{
+	font-size:12px;
+	}
 
     #menu-btn{
         font-size: 30px;
