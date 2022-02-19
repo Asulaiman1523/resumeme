@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Service</title>
+</head>
+<body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about me</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">contact me</a>
+        </nav>
+    <div class="service">
+        <h1 class="heading">Services</h1>
+        <div class="ser">
+            <div class="cards">
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>css</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fab fa-js"></i>
+                        <h3>javascript</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div class="ser">
+            <div class="cards">
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-mobile"></i>
+                        <h3>responsive</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-shipping-fast"></i>
+                        <h3>Fast service</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="sbox">
+                        <i class="fas fa-calendar-day"></i>
+                        <h3>24/7 service</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet</p>
+                        <a href="">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+        
+
+    <script>
+        document.querySelector('#menu-btn').onclick = () =>{
+    document.querySelector('#menu-btn').classList.toggle('fa-times');
+    document.querySelector('.navbar').classList.toggle('active')
+}
+    </script>
+</body>
+</html>

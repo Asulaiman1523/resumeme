@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>contact</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+</style>
+<body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+    <nav class="navbar">
+        <a href="index.html">home</a>
+        <a href="about.html">about me</a>
+        <a href="portfolio.html">portfolio</a>
+        <a href="service.html">Service</a>
+        <a href="contact.html">contact me</a>
+    </nav>
+    <div class="contact">
+        <h2 class="heading">Contact Me</h2>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">First Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Last Name</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Email</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            <div class="col">
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span class="text">Mobile</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row100">
+            <div class="col">
+                <div class="inputBox textarea">
+                    <textarea required="required"></textarea>
+                    <span class="text">Type your message Here...</span>
+                    <span class="line"></span>
+                </div>
+            </div>
+            </div>
+            <div class="row100">
+                <div class="col">
+                    <input type="submit" value="send">
+                </div>
+            </div>
+    </div>
+
+    <script>
+                document.querySelector('#menu-btn').onclick = () =>{
+    document.querySelector('#menu-btn').classList.toggle('fa-times');
+    document.querySelector('.navbar').classList.toggle('active')
+}
+    </script>
+</body>
+</html>

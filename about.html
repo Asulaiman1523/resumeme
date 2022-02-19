@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="images/s.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>About me</title>
+</head>
+<body>
+    <div id="menu-btn" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <a href="index.html">home</a>
+            <a href="about.html">about me</a>
+            <a href="portfolio.html">portfolio</a>
+            <a href="service.html">Service</a>
+            <a href="contact.html">contact me</a>
+        </nav>
+<div class="about">
+    <h1 class="heading">about me</h1>
+    <div class="row">
+        <div class="image">
+            <img src="images/s.jpg" alt="">
+        </div>
+        <div class="cont">
+            <h3>my name is <span class="typing-text"></span></h3>
+            <p class="info">I am a front end developer. I have a lot of experience in web development. I am here to deliver good quality service to my clients to satisfy them. If you interested to hiring me please dont be hesitate to get in touch with me.</p>
+            <div class="box">
+                <div class="bo">
+                    <p><span>age : </span>17</p>
+                    <p><span>gender : </span>male</p>
+                    <p><span>experiance : </span>3 years</p>
+                    <p><span>freelance : </span>available</p>
+                </div>
+                <div class="bo">
+                    <p><span>language : </span>Sinhala,English</p>
+                    <p><span>Phone : </span>072-282-9103</p>
+                    <p><span>email : </span>ahamedsulaiman@gmail.com</p>
+                    <p><span>address : </span>Sri Lanka, Galle</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="js/particles/script.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+<script>
+    document.querySelector('#menu-btn').onclick = () =>{
+    document.querySelector('#menu-btn').classList.toggle('fa-times');
+    document.querySelector('.navbar').classList.toggle('active')
+}
+
+    var typed = new Typed('.typing-text', {
+    strings : ['Ahamed Sulaiman', 'Ahamed Sulaiman', ],
+    loop : true,
+    typeSpeed :50
+});
+
+</script>
+</body>
+</html>
